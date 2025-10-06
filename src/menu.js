@@ -1,7 +1,7 @@
 function menu() {
     const container = document.querySelector("#content");
 
-    const title = document.createElement("Menu");
+    const title = document.createElement("h1");
     title.textContent = "Menu";
     container.appendChild(title);
 
